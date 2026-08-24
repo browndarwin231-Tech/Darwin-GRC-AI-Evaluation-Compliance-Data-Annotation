@@ -1,0 +1,21 @@
+QA Review ID,Record ID,Primary Reviewer Label,QA Reviewer Label,Label Agreement,Primary Accuracy Score,QA Accuracy Score,Primary Completeness Score,QA Completeness Score,Primary Reasoning Score,QA Reasoning Score,Primary Framework Alignment Score,QA Framework Alignment Score,Primary Remediation Score,QA Remediation Score,Quality Issue,QA Reviewer Comments,Final Disposition
+QA-001,AI-GRC-001,Incomplete,Incomplete,Yes,3,3,3,3,3,3,3,3,2,3,Minor remediation scoring difference,The primary label is appropriate. The improved response is stronger than the original remediation score suggests.,Accepted with score adjustment
+QA-002,AI-GRC-002,Incorrect,Incorrect,Yes,1,1,2,2,1,1,1,1,1,1,None,The response incorrectly dismisses governance despite the NIST CSF 2.0 Govern function.,Accepted
+QA-003,AI-GRC-003,Incorrect,Incorrect,Yes,2,2,2,2,2,2,2,2,1,1,None,The annotation correctly identifies unsupported verbal risk acceptance and missing documentation.,Accepted
+QA-004,AI-GRC-004,Incorrect,Incorrect,Yes,1,1,2,2,2,2,1,1,2,2,None,The evaluator correctly identified the accountability issue created by shared administrator accounts.,Accepted
+QA-005,AI-GRC-005,Incomplete,Incomplete,Yes,2,2,2,2,2,3,3,3,2,2,Minor reasoning score difference,The response is incomplete because collection alone does not demonstrate effective review and analysis.,Accepted with score adjustment
+QA-006,AI-GRC-006,Incorrect,Incomplete,No,1,2,2,2,2,3,2,3,2,3,Label severity disagreement,The response is clearly deficient but contains a valid point about the original questionnaire. Incomplete is more proportionate than Incorrect.,Adjudicated to Incomplete
+QA-007,AI-GRC-007,Unsupported,Unsupported,Yes,1,1,1,1,1,1,2,2,1,1,None,The annotation properly rejects verbal confirmation as sufficient evidence of control effectiveness.,Accepted
+QA-008,AI-GRC-008,Incorrect,Incorrect,Yes,1,1,2,2,2,2,1,1,1,1,None,The response incorrectly suggests organizations may exclude controls without justification.,Accepted
+QA-009,AI-GRC-009,Incomplete,Incomplete,Yes,2,2,2,2,2,3,3,3,2,3,Minor score variation,The annotation correctly identifies the missing testing and lessons-learned component.,Accepted
+QA-010,AI-GRC-010,Incorrect,Incorrect,Yes,1,1,1,1,1,1,1,1,1,1,None,The response is materially wrong because it permits indefinite delay without risk treatment or exception handling.,Accepted
+QA-011,AI-GRC-011,Incorrect,Incorrect,Yes,1,1,2,2,2,2,2,2,3,3,None,The evaluator correctly applies least-privilege concepts to role changes.,Accepted
+QA-012,AI-GRC-012,Incorrect,Incorrect,Yes,1,1,2,2,2,2,2,2,2,3,Minor remediation scoring difference,The annotation correctly identifies the contractual security gap and reliance on reputation.,Accepted with score adjustment
+QA-013,AI-GRC-013,Incorrect,Incorrect,Yes,1,1,2,2,2,2,2,2,2,2,None,The response incorrectly treats a successful outcome as evidence that the change-management control operated effectively.,Accepted
+QA-014,AI-GRC-014,Incomplete,Incomplete,Yes,2,2,2,3,2,3,3,3,3,3,Completeness score difference,The omitted sensitive-data system creates a material inventory gap and the response understates the issue.,Accepted with score adjustment
+QA-015,AI-GRC-015,Incomplete,Incomplete,Yes,2,2,2,2,2,3,3,3,2,3,Minor score variation,The response confuses vulnerability tracking with broader cybersecurity risk assessment.,Accepted
+QA-016,AI-GRC-016,Incomplete,Incomplete,Yes,2,2,2,2,2,3,3,3,3,4,Remediation scoring difference,The proposed restoration-testing improvement is strong and should receive a higher remediation score.,Accepted with score adjustment
+QA-017,AI-GRC-017,Unsupported,Unsupported,Yes,1,1,1,1,1,1,2,2,1,1,None,The annotation correctly identifies that an unverified certification claim should not drive the vendor risk rating.,Accepted
+QA-018,AI-GRC-018,Incomplete,Incomplete,Yes,3,3,2,2,3,3,3,3,3,3,None,The response recognizes successful containment but misses documentation and evidence-retention requirements.,Accepted
+QA-019,AI-GRC-019,Incomplete,Incomplete,Yes,2,2,2,2,2,3,3,3,3,3,Minor reasoning score difference,The annotation correctly identifies the need for ongoing awareness rather than one-time training.,Accepted
+QA-020,AI-GRC-020,Incorrect,Incorrect,Yes,1,1,2,2,2,2,2,2,2,2,None,The response incorrectly frames incident-only review as a proactive supply-chain risk process.,Accepted
