@@ -179,6 +179,20 @@ Darwin-GRC-AI-Evaluation-Compliance-Data-Annotation/
 ├── quality_assurance_summary.md
 └── evidence/
 
+## Evidence Screenshots
+
+### AI GRC Evaluation Dataset
+![AI GRC Evaluation Dataset](evidence/ai-grc-evaluation-dataset.png)
+
+### Data Quality Review
+![Data Quality Review](evidence/data-quality-review.png)
+
+### Framework Validation Matrix
+![Framework Validation Matrix](evidence/framework-validation-matrix.png)
+
+### AI GRC Quality Assurance Summary
+![AI GRC Quality Assurance Summary](evidence/qa-summary.png)
+
 ## Skills Demonstrated
 
 - AI Evaluation
